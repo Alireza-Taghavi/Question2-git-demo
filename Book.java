@@ -20,4 +20,12 @@ public abstract class Book {
     }
 
     public abstract void setPrice(double price);
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
