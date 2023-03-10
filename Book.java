@@ -2,6 +2,7 @@ public abstract class Book {
     private String title;
     private double price;
     private double price2;
+    private String publisher;
 
     public Book(String title) {
         this.title = title;
