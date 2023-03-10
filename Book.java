@@ -3,6 +3,7 @@ public abstract class Book {
     private double price;
     private double price2;
     private String publisher;
+    private double somethingToMakeConflict;
 
     public Book(String title) {
         this.title = title;
