@@ -1,8 +1,14 @@
 public abstract class Book {
     private String title;
     private double price;
+
+    private double price2;
+    private String publisher;
+    private double somethingToMakeConflict;
+
     private double kabab;
     private String somagh;
+
 
     public Book(String title) {
         this.title = title;
